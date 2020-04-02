@@ -1,18 +1,26 @@
 header {
   background-color: #a52a2a;
 }
+
 header,
 h1 {
   color: white;
   text-align: center;
 }
+
 .sunset {
   width: 100%;
 }
+
+.bluetext {
+  color: blue;
+}
+
 main,
 p {
   font-size: 18px;
 }
+
 footer {
   background-color: #000000;
   color: white;
