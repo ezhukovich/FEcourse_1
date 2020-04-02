@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="./styles/styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fjalla+One|Oswald|Baloo+2:500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>index</title>
+  </head>
+  <body>
+    <video autoplay muted loop class="background-video">
+      <source src="./videos/background-video.mp4" type="video/mp4" />
+    </video>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about_me">About me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#feadbeak">Feadbeak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="wrapper">
+      <div id="about_me" class="manual-padding-on-top">
+        <div class="row-content backround-color">
+          <img class="my-photo" src="./images/photo.jpg" alt="My photo" />
+          <div class="personal-info">
+            <h1>Svitlana Saliuk</h1>
+            <h2>Front-end</h2>
+            <h3>Zhytomyr, Ukraine</h3>
+            <h4>30 y.o.</h4>
+            <h5>sveta@gmail.com</h5>
+          </div>
+        </div>
+
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, nemo
+          vel. Perferendis ducimus rem, id alias, in officiis accusantium non,
+          repudiandae neque laboriosam adipisci nihil quis quasi earum?
+          Mollitia, aliquid.
+        </p>
+        <h5 class="title-block">Skills</h5>
+        <ul>
+          <li>Html</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+        <h5 class="title-block">Social Network</h5>
+        <ol>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/svitlana-saliuk-1bb49b198/"
+              target="_blank"
+              >Linkedin</a
+            >
+          </li>
+          <li>
+            <a href="https://www.facebook.com/sveta.salyuk.1" target="_blank"
+              >Facebook</a
+            >
+          </li>
+        </ol>
+      </div>
+
+      <div class="triangle-right"></div>
+      <div id="portfolio" class="manual-padding-on-top">
+        <h2 class="content-title">Portfolio</h2>
+        <div class="portfolio-list">
+          <a
+            class="portfolio-item"
+            href="../lesson 1/index.html"
+            target="_blank"
+          >
+            <img src="./images/photo.jpg" alt="cv" />
+            <div class="item-name">CV</div>
+          </a>
+        </div>
+      </div>
+      <div class="triangle-left"></div>
+      <div id="feedback" class="manual-padding-on-top">
+        <h2 class="content-title">Feadback</h2>
+        <div class="feedback-container">
+          <form action>
+            <fieldset>
+              <label for="email">Enter email</label>
+              <input type="email" name="email" />
+            </fieldset>
+            <div class="submit-form-container">
+              <div class="row">
+                <input type="checkbox" name="conditions" id="agree" />
+                <label for="agree">
+                  I agree to the <a href="#">Privacy policy</a
+                  ><a href="#">terms of use</a>
+                </label>
+              </div>
+              <input type="submit" value="submit your feadback" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
