@@ -29,7 +29,7 @@ h1 {
 
 .border {
     border-width: 3px;
-    border-style:dashed;
+    border-style: dashed;
 }
 
 .image-item {
@@ -44,12 +44,14 @@ div {
     font-size: 18px;
 }
 
+.text-right{
+    padding: 0 3px;
+}
 
 #footer {
     background: black;
     color:white;
     padding: 3px 0;
-    margin-top:30px;
-    text-align:center;
+    margin-top: 30px;
+    text-align: center;
 }
-
