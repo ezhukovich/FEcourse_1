@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(153, 9, 9);
+    max-width: auto;
+    font-size: 18px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.header-navbar {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+.header-navbar div {
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+}
+.header-navbar div a{
+    
+    text-decoration: none;
+    color: white;
+}
+.header-navbar div a img {
+    width: 60%;
+}
+.header-navbar div a span {
+    display: block;
+}
+
+main {
+    display: flex;
+    max-width: auto;
+}
+
+.left-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    width: 70%;
+    background-color: rgb(125, 9, 9);
+    margin-top: 5px;
+    
+}
+.left-part a {
+    text-decoration: underline;
+    color: rgb(226, 90, 40);
+    margin: 10px 0 10px 0;
+    
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 20px;
+}
+.right-part {
+    background-color: rgb(227, 221, 221);
+    padding: 10px;
+    margin-top: 5px;
+}
+.right-part h3{
+    background-color: rgb(189, 189, 189);
+    text-align: center;
+}
+
+
+footer {
+    background-color: rgb(226, 90, 40);
+    text-align: center;
+    margin-top: 10px;
+}
+footer p {
+    padding: 5px;
+}
