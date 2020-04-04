@@ -1,0 +1,32 @@
+@import "./../abstract/constants";
+
+
+.title {
+    width: $content-width;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item {
+    width: 155px;
+    height: 115px;
+}
+
+.slider {
+    width: 940px;
+    height: 160px;
+    margin-left: 6px;
+    background-color: $color-slider;
+
+}
+
+.items_block {
+    margin: 0;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
