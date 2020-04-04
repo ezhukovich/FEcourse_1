@@ -8,7 +8,7 @@
 .btn {
     padding: 15px 62px;
     /* 227 */
-    max-width: 232px;
+    max-width: max-content;
     border: 2px solid #FF2D2D;
     font-size: 18px;
     border-radius: 5px;
