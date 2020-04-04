@@ -208,3 +208,101 @@ width: 615px;
     margin: 10px 0;
     background: #F6F2F2;
 }
+
+.block4 .row {
+    display: flex;
+    flex-direction: column;
+}
+.block4 .row h2 {
+    margin-bottom: 25px;
+}
+.block4 .row p{
+    width: 450px;
+}
+
+.block4 .line {
+    width: 130px;
+    height: 2px;
+    background: #ff2d2d;
+    margin: 31px 0 81px;
+}
+
+.block4 .team-members .member-icon {
+    width: 321px;
+    height: 458px;
+    border: 1px solid #ff2d2d;
+    background-color: #F6F2F2;
+    margin-right: 71px;
+}
+
+.block4 .team-members {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 110px;
+}
+
+.block4 .right-side .name-member {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 23px;
+}
+.block4 .right-side {
+    display: flex;
+    justify-content: space-between;
+}
+.block4 .right-side .description {
+    margin-bottom: 35px;
+    width: 671px;
+}
+
+.block4 .social-links {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.block4 .social-links li {
+    margin-right: 30px;
+    list-style-type: none;
+    
+}
+
+.block4 .social-links li a {
+    text-decoration: none; 
+    color: #000;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.block4 .other-members {
+    display: flex;
+    
+}
+.block4 .other-members figure{
+    width: 197px;
+    height: 214px;
+    border: 1px solid #ff2d2d;
+    background-color: #F6F2F2;
+    margin-right: 20px;  
+    display: block;
+}
+.block4 .other-members figure .avatar{
+    height: 177px;
+    width: auto;
+}
+
+.block4 .other-members figure figcaption {
+    text-align: center;
+    background-color: #707070;
+    max-width: initial;
+    height: 37px;
+     
+}
+.block4 .other-members figure figcaption a {
+    width: inherit;
+    color: #fff;
+    
+    top: 5px;
+    position: relative;
+    text-decoration: none;
+}
