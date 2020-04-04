@@ -1,0 +1,46 @@
+body{
+    font-size: 18px;
+    margin: 0 0 0 10px;
+}
+
+/*Header
+===============*/
+.header{
+    color: #fff;
+    background-color: #A52A2A;
+    text-align: center;
+}
+
+
+/*Container
+===============*/
+
+.container{
+    margin-right: 20px;
+}
+
+#sunsetimg{
+    width: 100%;
+    max-height: 200px;
+}
+
+.bold{
+    font-weight: 700;
+}
+.images{
+   text-align: center;
+}
+
+.imagecar{
+    border: 2px dashed black;
+}
+
+/*Footer
+===============*/
+
+.footer{
+    color: #fff;
+    background-color: #000;
+    font-size: 20px;
+    text-align: center;
+}
