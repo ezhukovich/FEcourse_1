@@ -1,1 +1,18 @@
 @import "./../abstract/constants";
+
+footer {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.copyright {
+    width: 95%;
+    height: 20px;
+    background: $color-footer;
+    text-align: center;
+    font-size: 1.6rem;
+    color: #ffff;
+}
