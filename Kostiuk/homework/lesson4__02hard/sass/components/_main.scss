@@ -1,0 +1,72 @@
+@import "./../abstract/constants";
+
+ul {
+    margin: 0;
+    padding-left: 15px;
+
+}
+
+.container {
+    width: $content-width;
+    padding: 5px 10px 20px;
+    height: 315px;
+    display: flex;
+
+
+
+}
+
+.left_sidebar {
+    width: 200px;
+    height: 280px;
+    padding-top: 10px;
+    background: #7D0909;
+    flex-grow: 1;
+}
+
+a {
+    font-size: 1.9rem;
+    color: #E95B0D;
+
+}
+
+.article_main {
+    width: 580px;
+    height: 280px;
+    padding-left: 10px;
+    flex-grow: 3;
+}
+
+.right_sidebar {
+    width: 150px;
+    height: 280px;
+    padding: 2px;
+    font-size: 1.7rem;
+    flex-grow: 1;
+    background: #E3DDDD;
+}
+
+h3 {
+    width: 100%;
+    height: 18px;
+    font-size: 1.5rem;
+    background: #BDBDBD;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.line {
+    width: 78px;
+    height: 2px;
+    padding-bottom: 1px;
+    background: white;
+    margin: 7px 30px 15px;
+}
+
+span {
+    width: 100%;
+    height: 1px;
+    background: #9A9A9A;
+    display: block;
+}
