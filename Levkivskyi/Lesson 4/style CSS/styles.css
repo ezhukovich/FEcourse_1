@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  background: aqua;
+}
+
+nav {
+  text-align: center;
+  vertical-align: center;
+}
+.nav-items li {
+  display: inline-block;
+  padding: 10px 5px;
+  position: relative;
+  background-color: #fff;
+}
+.dropdown-list {
+  display: none;
+  position: absolute;
+}
+.dropdown-list li {
+  display: block;
+}
+
+.nav-items .for_dropdown:hover .dropdown-list {
+  display: block;
+}
