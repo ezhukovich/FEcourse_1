@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 952px;
+    height: 625px;
+    background-color: #5d7aa4;
+}
