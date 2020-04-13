@@ -64,6 +64,7 @@ padding: 29px 0 111px;
     max-width: 577px;
     margin-bottom: 36px;
 }
+
 header {
     background: #000;
     font-weight: 700;
@@ -189,19 +190,85 @@ nav a:hover {
 .block4 .description {
     margin-bottom: 0;
     text-align: left;
+    margin-top: 20px;
 }
 .block4 .line {
     width: 130px;
     background: #ff2d2d;
     margin: 28px 0 81px;
 }
-/* .block4 .regular-subtitle {
-    color: #4e4e4e;
-    font-weight: 620;
-    font-size: 22px;
-    cursor: pointer;
+.block4 .regular-title-block4 {
+    justify-content: flex-end;
+    flex-direction: column;
+  align-items: flex-end;
+  margin-top: 10px;
+  padding-top: 10px;
+
+}
+
+.regular-title-social {
+margin-bottom: 10px;
+}
+
+.block5 .description {
+    max-width: 100%;
+    margin-bottom: 60px;
+    margin-top: -70px;
+    color: #fff;
+    margin-left: 300px;
+}
+.block5 {
+    background: #f5f0dd;
+    height: 470px;
+}
+.block5 .regular-title {
+    text-align: center;
+    color: #fff;
+    text-transform: none;
+    max-width: 100%;
+    padding: 70px;
+    margin-top: 40px;
+}
+.block5 .description {
+    max-width: 100%;
+    margin-bottom: 60px;
+    margin-top: -70px;
+    color: #fff;
+    margin-left: 300px;
+}
+.block5 input[type="email"] {
+    width: 521px;
+    padding: 28px 35px;
+    font-size: 16px;
+    margin-left: 210px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.block5 input[type="submit"] {
+    background-color: #ff2d2d;
+    border: none;
+    color: #fff;
+    padding: 25px 55px;
+    font-size: 16px;
+    text-decoration: none;
     text-transform: uppercase;
-} */
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.block6 {
+    margin-top: 70px;
+}
+.filtres-social {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+
 .filtres {
     display: flex;
     width: 893px;
@@ -223,4 +290,22 @@ nav a:hover {
     height: 290px;
     margin: 10px 0;
     background: #f6f2f2;
+}
+.footer {
+    width: 100%;
+    height: 60px;
+    background: #000000;
+        
+}
+.footer-block {
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+  
+} 
+.footer-company {
+        flex-direction: column;
 }

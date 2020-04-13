@@ -32,12 +32,20 @@ h1 {
 .color_blue {
     color: blue;
 }
-
+.conteiner_car {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: space-around;
+}
 .conteiner_car img {    
     flex-direction: column;
     border: 3px dashed;
     width: 100px;
     height: 60px;
+    
    }
 
 .block_end {
