@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Miso" , sans-serif;
+}
+
+.container{
+    background: #FDDE7E;
+    display: flex;
+    height: 700px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.block{
+    background: white;
+    width: 366px;
+    height: 446px;
+    border-radius: 4px;
+    box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.21);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.price{
+    font-size: 70px;
+    font-weight: 700;
+    color: #02995B;
+}
+
+.image{
+    background-color: white;
+    text-align: center;
+}
+
+.cup{
+    position: absolute;
+}
+
+.bean{
+    position: relative;
+   margin: 12px 40px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.description{
+    font-size: 20px;
+    max-width: 140px;
+    text-align: center;
+}
+
+.gold{
+    height: 506px;
+}
