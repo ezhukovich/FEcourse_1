@@ -1,0 +1,118 @@
+*{
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+
+}
+.background-picture{
+    
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.block{
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.little-title{
+    color: #898F99;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 140px;
+}
+
+.main-title{
+    color: #57D9DB;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.main-description{
+    color: #898F99;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'PT Sans';
+    width: 512px;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    margin-top: 79px;
+    width: 935px;
+}
+
+.section{
+    width: 235px;
+    height: 420px;
+    background-color: rgba(153,153,153,0.2);
+    border: 1px solid rgba(153,153,153,0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: auto;
+    z-index:1;
+}
+
+.section:hover{
+    background-color: rgba(14,200,203,0.6);
+    color: white;
+}
+
+.section:hover .description{
+    color:white;
+} 
+
+.section:hover svg{
+    fill: white;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.description{
+    font-family: 'PT Sans';
+    font-size: 14px;
+    font-weight: 400;
+    width: 174px;
+    color: #898F99;
+    
+}
+
+.anchor{
+    height: 64px;
+    margin: 60px auto 51px;
+}
+
+.diamond{
+    height: 64px;
+    margin: 60px auto 51px;
+  
+}
+
+.glasses{
+    height: 48px;
+    margin: 64px auto 59px;
+
+}
+
+.computer{
+    height: 52px;
+    margin: 62px auto 57px;
+}
+
+

@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Hans Kendrick", sans-serif;
+  background: #e2e7ec;
+  margin: 0;
+  padding: 0;
+}
+
+h5 {
+  margin: 0;
+  padding-top: 23px;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.img {
+  margin: 0 1px 25px 0;
+  width: 54px;
+  height: 54px;
+}
+
+.block > img {
+  width: 100%;
+  height: auto;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 360px;
+  margin: 10px;
+  background: #fff;
+}
+
+.block.large_block {
+  width: 740px;
+  justify-content: flex-end;
+  background-image: url(../images/redCar.png);
+  image-resolution: ;
+}
+
+.title {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding-top: 21px;
+  font-family: "Hans Kendrick", sans-serif;
+  font-size: 22px;
+  color: #1d1d1d;
+  text-transform: uppercase;
+}
+
+.large_block .discription {
+  height: 190px;
+}
+
+.large_block .part {
+  height: 100px;
+  margin-left: 41px;
+  width: 465px;
+}
+
+.large_block .data {
+  font-size: 13px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.data {
+  font-size: 13px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: #818181;
+  font-family: "Hans Kendrick", sans-serif;
+  font-weight: 500;
+}
+
+.data.invisible {
+  visibility: hidden;
+}
+
+.discription {
+  margin-top: 29px;
+  margin-left: 28px;
+  height: 261px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
