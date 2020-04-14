@@ -1,0 +1,15 @@
+{
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "css_peek.peekFromLanguages": [
+        "html",
+        "ejs",
+        "erb",
+        "php",
+        "javascriptreact",
+        "typescriptreact",
+        "typescript",
+        "javascript",
+        "scss"
+    ]
+}
