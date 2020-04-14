@@ -1,0 +1,45 @@
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.block.large__block{
+     width: 740px;
+    justify-content: flex-end;
+    background: url('https://lh3.googleusercontent.com/proxy/yyYeBCsVxbmjqdbMEZQBtSdmGncYPHk8iClXm7X9F6YaiNM-uf3VNuoNHMqR8tJAV0MIoq6W7IFpkGjr8c8IN9LPapWyxhewrrYUKwaz97Q_');
+}
+
+.block{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 80px 10px;
+}
+
+
+.description{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.block img{
+    width: 50px;
+    height: 50px;
+}
+
+.block > img{
+    width: 100%;
+    height: auto;
+}
+
+.large__block .description{
+    color: #fff;
+}
+
+
+
+

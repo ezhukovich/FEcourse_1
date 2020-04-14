@@ -36,6 +36,7 @@
     font-weight: 400;
     max-width: 517px;
     margin-bottom: 54px;
+    line-height: 30px;
 }
 
 .btn{
@@ -226,7 +227,98 @@ nav a:hover{
     height: 290px;
     margin: 10px 0;
     background: #f6f2f2;
-    }
+}
+
+
+
+.block4 .regular-title{
+    margin-bottom: 19px;
+}
+
+.block4 .description{
+    width: 450px;
+    height: 105px;
+    margin-bottom: 0;
+}
+
+
+.block4 .line{
+    width: 130px;
+    background: #ff2d2d;
+    margin-top: 10px;
+}
+
+.block4 .portfolio-item{
+    width: 321px;
+    height: 468px;
+}
+
+.block4 .description{
+    width: 670px;
+    height: 105px;
+    font-size: 16px;
+    font-style: 600;
+}
+
+.regular-subtitle{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 22.6px;
+}
+
+.social {
+    font-size: 18px;
+    font-style: italic;
+    color: #333;
+    width: 371px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 63px;
+    flex-wrap: wrap;
+}
+
+.social__links{
+    text-decoration: none;
+    color: #333;
+}
+
+.block4 .portfolio{
+    margin-bottom: 110px;
+    padding: 0;
+}
+
+.block4 .portfolio .portfolio-item{
+    width: 196px;
+    height: 214px;
+    margin-left: 20px;
+}
+
+.block4 .portfolio .portfolio-item:first-child{
+    position: relative;
+    margin-left: 0;
+}
+
+.sokina{
+    position: absolute;
+    width: 100%;
+    font-weight: 600;
+    bottom: 0;
+    font-size: 18px;
+    color: #fff;
+    background: #7A776E;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
