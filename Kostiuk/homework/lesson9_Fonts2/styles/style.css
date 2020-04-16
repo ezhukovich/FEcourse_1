@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+span {
+  font-family: "Proxima", sans-serif;
+}
+
+p,
+h5 {
+  font-family: "Georgia", sans-serif;
+}
+
+body {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background: #464f54;
+  display: flex;
+  justify-content: center;
+  padding: 130px 70px 0 70px;
+}
+
+.content {
+  padding-left: 70px;
+  background-color: #fff;
+  width: 100%;
+  position: relative;
+}
+
+article {
+  padding: 200px 0 0 52px;
+  border-left: 1px solid #e8eced;
+}
+
+.headers {
+  position: absolute;
+  top: -102px;
+  right: -70px;
+}
+
+.black_header {
+  padding: 48px 0 48px 60px;
+  background: #181818;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.black_header input {
+  height: 64px;
+  width: 826px;
+  font-size: 48px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 11px;
+
+  background: #181818;
+  font-family: "Playfair Display", serif;
+  color: #fff;
+}
+
+.black_header .line {
+  width: 100%;
+  height: 3px;
+  background: #707070;
+}
+
+.black_header label {
+  text-transform: uppercase;
+  font-family: "Proxima Nova", sans-serif;
+  letter-spacing: 4.8px;
+  color: #767676;
+}
+
+.control_bar {
+  padding: 22px 42px;
+  background: #fbc02d;
+  display: flex;
+  margin-left: 60px;
+}
+
+.control_bar svg {
+  display: block;
+  margin: 0 15px;
+}
+
+.control_bar svg:first-child {
+  margin-left: 0;
+}
+
+article > span {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 37px;
+  display: block;
+  font-family: "Proxima Nova Regular", sans-serif;
+  color: #b4b4b4;
+  text-transform: uppercase;
+}
+
+article h1 {
+  font-size: 78px;
+  line-height: 74px;
+  font-family: "FuturaPT Heavy", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+article h5 {
+  font-size: 30px;
+  color: #8f8f8f;
+  line-height: 63px;
+}
+
+article p {
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 41px;
+  margin: 28px 130px 0 0;
+}
+
+article p .italic {
+  font-family: Georgia;
+  font-style: italic;
+  font-size: 27px;
+}
+
+/* .black_header input::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #707070;
+} */
