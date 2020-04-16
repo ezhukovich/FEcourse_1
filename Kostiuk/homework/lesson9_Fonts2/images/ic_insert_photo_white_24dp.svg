@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 27" width="28" height="27">
+	<defs>
+		<image width="48" height="48" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAACYktHRAD/h4/MvwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAP5JREFUWMPt1z8KwjAUx/EIQsFNT+BUiqNncPAYBUcP4SncHHoDq4OLV3B1cPIEitiKg8jXydL0n7VJpua9LZB+4PegvAiE2RYWaB/gEXKnacVs8aoAjxuqdZMJGQjRUZty4K4FiMoBXWUBC1jAAhaoWysCk8ABhx5HU8CFIQLBiIc6sGKZOXkzTW74qsABhy576Wwh3QlUgG8UfU7J2Y6OdKdoEjWBdBQuVwDODHLLVX4SNQE5igkvnowL9ze/CZCNQjBnVroiBv8CRVFUtTyJn0BZFFWdnsRPYNZok/bb8DeNTS+/Wy3A2uwD5Ipb/YTaECmEs5Y/b5+xFtDRH63pTY280Yl0AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Document Header">
+		<g id="Control Bar">
+			<g id="Icons">
+				<use id="ic_insert_photo_white_24dp" style="opacity: 0.502" href="#img1" transform="matrix(0.792,0,0,0.771,-5,-5)"/>
+			</g>
+		</g>
+	</g>
+</svg>
