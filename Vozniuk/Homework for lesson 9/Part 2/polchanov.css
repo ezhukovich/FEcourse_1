@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background: #464F54;
+    display: flex;
+    justify-content: center;
+    padding: 130px 70px 0 70px;
+}
+
+.content {
+    background-color: #fff;
+    padding-left: 70px;
+    width: 100%;
+    position: relative;
+}
+
+article {
+    /* padding-top: 200px; */
+    /* padding-left: 52px; */
+    padding: 200px 0 0 52px;
+    border-left: 1px solid #e8eced;
+}
+
+.headers {
+    position: absolute;
+    top: -102px;
+    right: -70px;
+}
+
+.black_header {
+    padding: 46px 0 46px 60px;
+    background: #181818;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.black_header label {
+    text-transform: uppercase;
+    font-family: 'ProximaNova-Regular', sans-serif;
+    letter-spacing: 0.32em;
+    color: #767676;
+}
+
+.black_header input {
+    height: 64px;
+    width: 816px;
+    font-size: 48px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 11px;
+    color: #fff;
+    background: #181818;
+    font-family: 'Playfair-Display', serif;
+}
+
+.black_header .line {
+    width: 100%;
+    height: 3px;
+    background: #707070;
+}
+
+.orange_header {
+    padding: 22px 42px;
+    background: #FBC02D;
+    display: flex;
+    margin-left: 60px;
+}
+
+.orange_header svg {
+    display: block;
+    margin: 0 15px;
+}
+
+.orange_header svg:first-child {
+    margin-left: 0;
+}
+
+article span {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 37px;
+    display: block;
+    font-family: 'ProximaNova-Regular', sans-serif;
+    color: #b4b4b4;
+}
+
+article h1 {
+    font-size: 78px;
+    line-height: 74px;
+    font-family: 'FuturaPT-Heavy', sans-serif;
+    /* font-weight: 300; */
+    font-weight: normal;
+}
+
+article h5 {
+    font-size: 30px;
+    color: #8f8f8f;
+    line-height: 63px;
+    font-family: 'Georgia', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+}
+
+article p {
+    margin: 28px 0;
+    font-size: 27px;
+    line-height: 41px;
+    margin-right: 130px;
+    font-family: 'Georgia', sans-serif;
+}
