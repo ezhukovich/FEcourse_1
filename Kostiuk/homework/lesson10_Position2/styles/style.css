@@ -1,0 +1,108 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+
+      
+.container {
+    width: 1170px;
+    height: 736px;
+    margin: 0 auto;
+    background-image: url("/images/Composite_Path.png");
+    
+}
+
+.title_block {
+    width: 303px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 108px;
+    display: flex;
+    flex-direction: column;
+
+    
+}   
+  
+.line {
+    width: 45px;  
+    height: 4px;
+    background-color: #dddbdb;
+    margin-top: 20px;
+    align-self: center;
+}
+
+.title {
+    height: auto;
+    width: 317px;
+    font-family: Lato;
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    color: #3c3c3c;
+}
+
+p {
+    width: 561px;
+    height: 39px;
+    margin: 0 auto;
+    padding-top: 40px;
+    color: #3c3c3c;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.photo:first-child {
+    width: 269px;
+    height: 268px;
+    padding: 0;
+    background-color: #00aed9;
+    opacity: 0.9;
+}
+
+.photo:last-child {
+    margin-left: 20px;
+
+}
+
+.photo {
+    width: 269px;
+    height: 268px;
+    padding-left: 5px;
+    cursor: pointer;
+    opacity: 0.9;
+    position: relative;
+    z-index: 2;
+    transition: all .6s ease-in;
+}
+
+.photo_absolute {
+    width: 269px;
+    height: 268px;
+    padding: 0;
+    background-color: #00aed9;
+    opacity: 0.8;
+    left: 300px;
+    position: absolute;
+    z-index: 1;
+}
+
+.photo:hover {
+    opacity: 0;
+}
