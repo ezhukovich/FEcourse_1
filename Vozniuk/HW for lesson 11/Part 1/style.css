@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.c-block1 {
+    background-image: url(./img/img-1.png);
+    background-size: cover;
+    height: 1000px;
+    width: auto;
+}
+
+.l-container {
+    margin: 0 161px;
+}
+
+.c-head {
+    width: 100%;
+    padding-top: 57px;
+}
+
+.c-head__logo {
+    float: left;
+}
+
+.c-head__text-logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    line-height: 25px;
+}
+
+.c-head__menu {
+    margin:0;
+    padding:0;
+    list-style:none; 
+    width: 573px;
+    float: right;
+    display: table;
+    table-layout: fixed;
+}
+
+
+.c-link-menu {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    display: table-cell;
+    color: #262626;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.c-link-menu--active:before  {
+    content: "";
+    border: 3px solid #FF6033;
+    display: block;
+    margin: 0 22px;
+}
+
+.c-main-content {
+    margin-top: 300px;
+}
+
+.c-main-content__title {
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    line-height: 25px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.c-main-content__desc {
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 300;
+    width: 370px;
+    margin-bottom: 22px;
+    
+}
+
+.c-main-content__btn {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #fff;
+    height: 55px;
+    background-color: #FF6033;
+    text-transform: uppercase;
+    padding: 10px 22px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 3px 5px rgb(0,0,0,.5);
+}
+
+.c-icon-cursor {
+    text-align: center;
+    position: relative;
+    bottom: -320px;
+}
+
+.c-block2 {
+    height: 700px;
+    background-image: url(./img/img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: auto;
+    background-color: #00C4C4;
+}
+
+.c-about-content {
+    float: right;
+    margin-top: 200px;
+    color: #fff;
+}
+
+.c-about-content__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 90px;
+    line-height: 27px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.c-about-content__desc {
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 300;
+    width: 500px;
+}
