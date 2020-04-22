@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS Regular' ;
+}
+body {
+  background: #000000;
+}
+.container-general {
+  background: #ffffff;
+  width: 920px;
+  height: 630px;
+  margin-left: 200px;
+  margin-top: 5px;
+  position: absolute;
+}
+.container {
+  width: 880px;
+  height: 590px;
+  background: #3b3f45;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 20px;
+  /* position: absolute; */
+}
+.title {
+  width: 100%;
+  height: 100px;
+  background: #4a4f56;
+  margin: 0 20px 20px 0;
+  text-align: center;
+
+}
+.container-magazine {
+  background: #3b3f45;
+  width: 800px;
+  height: 320px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 32 px;
+  align-items: center;
+  padding-top: 15px;
+  color: #eb7e7f;
+}
+p {
+  color: #eb7e7f;
+}
+.title-header {
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  height: 60px;
+  align-items: center;
+  background: #4a4f56;
+  margin: 0 auto;
+  font-size: 25px;
+ }
+.chek-magazine {
+  width: 800px;
+  height: 50px;
+  background: #88839e;
+  margin: 0 auto;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+#check1 {
+  transform:scale(1.8);
+  opacity: 0.8;
+  cursor: progress;
+}
+span {
+  font-size: 16px;
+}
+label {
+  width: 800px;
+  height: 30px;
+  padding: 10px;
+  font-size: 20px;
+  color: #ffffff;
+}
+.chek-magazine:hover {
+  background: #625e77;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  
+}
+input:checked + label {
+  text-decoration: line-through;
+  color: #a39fb3;
+}
+input:active + label {
+  background: burlywood;
+}
