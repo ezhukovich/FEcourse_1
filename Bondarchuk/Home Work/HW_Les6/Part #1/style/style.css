@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  width: 80%;
+  height: 400px;
+  margin: 10px;
+  margin-top: 56px;
+    padding-top: 20px;
+  justify-content: space-around;
+}
+
+.title {
+ margin-top: 30px;
+ width: 230px;
+ text-align: center;
+ font-size: 14px;
+ 
+}
+.title-paragraf{
+  margin-top: 10px;
+ 
+}
+
+.blok-fon {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #1275b9;
+  border-radius: 50%;
+  overflow: hidden;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 85px;
+
+}
+img {
+  max-width: 100%;
+   align-self: center;
+}
+
+.blok-setting {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #1275b9;
+  border-radius: 50%;
+  overflow: hidden;
+  background:#1275b9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 80px;
+  
+}
+.blok-speed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #1275b9;
+  border-radius: 50%;
+  overflow: hidden;
+  background:#1275b9;
+  margin-left: 80px;
+}
+.blok-fon:hover {
+  background: #2a69a6;
+  border: 1px solid #ffffff;
+
+}
+.blok-setting:hover {
+  background: #2a69a6;
+  border: 1px solid #ffffff;
+}
+.blok-speed:hover {
+  background: #2a69a6;
+  border: 1px solid #ffffff;
+}
