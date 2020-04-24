@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="./css/styles.css" rel="stylesheet">
+    <title>Lesson 11</title>
+</head>
+<body>
+    <div class="auth-wrapper">
+        <div class="container">
+            <form class="auth-container" action="#" method="get">
+                <div class="row tabs">
+                    <div class='tab active'>
+                        <span>
+                            Sign in
+                        </span>
+                    </div>
+                    <div class='tab'>
+                        <span>
+                            Join us
+                        </span>
+                    </div>
+                </div>
+                <div class="form">
+                    <div class="form__controls">
+                        <label class="form__label" for="username">Username</label>
+                        <input type="text" id='username' class="form__input" name='username' minlength="3">
+                        <div class="form__error">error</div> 
+                    </div>
+                    <div class="form__controls">
+                        <label class="form__label" for="password">Password</label>
+                        <input type="password" id='password' class="form__input" name='passowrd' minlength="8">
+                        <div class="form__error">error</div> 
+                    </div>
+                    <div class="form__controls form__controls--checkbox">
+                        <input checked type="checkbox" name='keep' id='keep'>
+                        <label class="form__label form__label--checkbox" for='keep'>
+                            <span class='form__checkbox'>&#10004</span>
+                            Keep me signed in
+                        </label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
