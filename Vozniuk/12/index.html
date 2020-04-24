@@ -14,7 +14,7 @@
     <div class="c-auth-wrapper">
         <div class="c-container">
 
-            <form class="c-auth-container">
+            <form action="#" class="c-auth-container" method="GET">
 
                 <div class="c-tabs c-tabs-row">
                     <div class="c-tab c-tab--active">
@@ -34,7 +34,8 @@
 
                     <div class="c-form__controls c-form__controls--password">
                         <label type="text" class="c-form__label">Password</label>
-                        <input type="password" class="c-form__input" id="password" name="password" minlength="8">
+                        <input required type="password" class="c-form__input" id="password" name="password"
+                            minlength="8">
                         <div class="c-form__error">error</div>
                     </div>
 
@@ -46,12 +47,12 @@
                     </div>
 
                     <div class="c-form__controls c-form__controls--button">
-                        <button class="c-form__btn">Sign in</button>
+                        <button type="submit" class="c-form__btn">Sign in</button>
                     </div>
                 </div>
                 <div class="c-help-links">
-                    <a href="#" class="c-link c-help-pass">Forgot password</a>
-                    <a href="#" class="c-link c-help-create">Create an account</a>
+                    <a href="javascript: void(0)" class="c-link c-help-pass">Forgot password</a>
+                    <a href="#join" class="c-link c-help-create">Create an account</a>
                 </div>
 
             </form>
