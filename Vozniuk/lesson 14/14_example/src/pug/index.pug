@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		meta(http-equiv="X-UA-Compatible", content="ie=edge")
+		title Document
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		link(rel="stylesheet", href="./css/style.css")
+	body
+		.container
+			.row
+				.col
+					h1.title Have any 
+						span project!
+					p.text Just send me a message I will help you and make you smile
+			.row
+				.col.col-4
+					.row
+						include ./_buttons
+				.col.col-8
+					form(action="#", method="get").form
+						.row 
+							.col.col-6
+								.form__field
+									input.form__input(type="text", name="fname", placeholder="First Name")
+							.col.col-6
+								.form__field
+									input.form__input(type="text", name="lname", placeholder="Last Name")
+							.col.col-6
+								.form__field
+									input.form__input(type="email", name="email", placeholder="Your Email")
+							.col.col-6
+								.form__field
+									input.form__input(type="text", name="pname", placeholder="Project Name")
+							.col.col-12
+								.form__field.form__field--advanced
+									textarea(name="message", placeholder="Your Message.......").form__input.form__input--textarea
+									button.form__submit(type="submit")
+										<i class="fas fa-paper-plane"></i>
