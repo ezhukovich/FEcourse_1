@@ -1,0 +1,39 @@
+@import 'variables';
+@import 'mixins';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+
+    h2 {
+        font-size: 20px;
+        color: $default-color-text;
+    }
+
+    .classics {
+        @include flex(column, center, center);
+
+        .row {
+            @include flex(row, center, center);
+        }
+
+        .block {
+            @include flex(row, center, center);
+
+            width: $clasics-size;
+            height: $clasics-size;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 2px;
+        }
+
+    }
+}
+
