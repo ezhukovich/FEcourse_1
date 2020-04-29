@@ -1,0 +1,82 @@
+@import'_variable';
+
+* {
+   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: aqua;
+}
+.container {
+width: 100%;
+margin: 0 auto;
+
+h1 {
+    text-align: center;
+  color:$default-color-text;
+  margin-top: 20px;
+}
+.bloks__color {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 auto;
+.block {
+  width: 60px;
+  padding: 60px;
+  border-radius: 10px;
+  background-color: #000;
+ &__one {
+   background-color: azure;
+ }
+ &__two {
+   background-color: blueviolet;
+ }
+ &__three {
+   background-color: coral;
+ }
+}
+}
+%default--massege-style {
+  width: 600px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  border: 1px solid #ccc;
+}
+.Massege {
+  @extend %default--massege-style;
+  margin-top: 30px;
+}
+.Sucsses {
+  @extend %default--massege-style;
+  border-color: green;
+  color: green;
+}
+.Error {
+  @extend %default--massege-style;
+  border-color: red;
+  color: red;
+}
+.Warning {
+  @extend %default--massege-style;
+  border-color: yellow;
+  color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

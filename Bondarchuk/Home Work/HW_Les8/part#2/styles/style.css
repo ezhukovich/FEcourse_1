@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'NeueHansKendrick-Regular', sans-serif;
+}
+body {
+  background: #e2e7ec;
+ }
+h5 {
+  font-size: 35px;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.img {
+  margin: 0 1px 25px 0;
+  width: 54px;
+  height: 54px;
+}
+
+.block > img {
+  width: 100%;
+  height: auto;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 360px;
+  margin: 10px;
+  background: #fff;
+}
+
+.block.large_block {
+  width: 740px;
+  justify-content: flex-end;
+  background-image: url(../images/redCar.png);
+ 
+}
+
+.title {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding-top: 25px;
+  font-family: 'NeueHansKendrick-Regular', sans-serif;
+  font-size: 22px;
+  color: #1d1d1d;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.data-without {
+  padding: 20px;
+}
+
+.large_block .discription {
+  height: 190px;
+}
+
+.large_block .info-block {
+  height: 100px;
+  margin-left: 40px;
+  width: 465px;
+  margin-top: 50px;
+}
+
+.large_block .data {
+  font-size: 13px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.data {
+  font-size: 13px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: #8d9897;
+  font-family: 'NeueHansKendrick-Regular', sans-serif;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.discription {
+  margin-top: 29px;
+  margin-left: 28px;
+  height: 261px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

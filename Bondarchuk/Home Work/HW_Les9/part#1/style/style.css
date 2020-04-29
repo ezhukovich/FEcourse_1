@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Merriweather-Light';
+  src: url(../fonts/Merriweather-Light.ttf)
+}
+@font-face {
+  font-family: 'SourceSerifPro-Regular';
+  src: url(../fonts/SourceSerifPro-Regular.ttf)
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+body {
+  margin-top: 30px;
+  background: #f1f1f1;
+}
+.container {
+  width: 1100px;
+  height: 800px;
+  background: #ffffff;
+  border: 2px solid grey;
+  margin: 0 auto;
+
+}
+.block-border {
+  width: 950px;
+  height: 700px;
+ margin: 60px 50px 70px 80px;
+  background: white;
+  display: inline-block;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+ 
+}
+.blok-title {
+  text-align: left;
+  margin: 40px 90px 70px 70px;
+}
+.title {
+  font-size: 42px;
+  margin-bottom: 30px;
+  font-family: 'SourceSerifPro-Regular';
+  font-weight: normal;
+
+}
+.text {
+  font-style: 18px;
+  line-height: 1.5;
+}
+.litera {
+  font-size: 110px;
+position: absolute;
+left: 390px; 
+top: 190px;
+font-family: 'Merriweather-Black';
+
+}
+.block-btn {
+  width: 220px;
+  height: 55px;
+  border: 2px solid #eaa258;
+  color: #eaa258;
+  cursor: pointer;
+  letter-spacing: 5px;
+  font-size: 18px;
+  margin-top: 23px;
+  background: #ffffff;
+}
+.start-quote {
+  font-size: 50px;
+}
+.quote {
+  font-size: 24px;
+  font-weight: 100;
+}
+
