@@ -84,14 +84,14 @@ padding-left: 52px;
 }
 
 .orange_header {
-  padding: 22px 42px;
+  padding: 10px 42px ;
   background: #fbc02d;
   margin-left: 45px;
   height: 66px;
 }
 
 .orange_header svg {
-  display: block;
+  display: inline;
   margin: 0 15px;
 
 }
@@ -128,6 +128,7 @@ article h5 {
   font-family: 'Georgia' sans-serif;
   font-weight: normal;
   font-style: italic;
+  margin-bottom: 15px;
 
 }
 
