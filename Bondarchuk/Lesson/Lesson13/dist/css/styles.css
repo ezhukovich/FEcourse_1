@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: aqua;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.container h1 {
+  text-align: center;
+  color: yellow;
+  margin-top: 20px;
+}
+.container .bloks__color {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 auto;
+}
+.container .bloks__color .block {
+  width: 60px;
+  padding: 60px;
+  border-radius: 10px;
+  background-color: #000;
+}
+.container .bloks__color .block__one {
+  background-color: azure;
+}
+.container .bloks__color .block__two {
+  background-color: blueviolet;
+}
+.container .bloks__color .block__three {
+  background-color: coral;
+}
+.container .Warning, .container .Error, .container .Sucsses, .container .Massege {
+  width: 600px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  border: 1px solid #ccc;
+}
+.container .Massege {
+  margin-top: 30px;
+}
+.container .Sucsses {
+  border-color: green;
+  color: green;
+}
+.container .Error {
+  border-color: red;
+  color: red;
+}
+.container .Warning {
+  border-color: yellow;
+  color: yellow;
+}

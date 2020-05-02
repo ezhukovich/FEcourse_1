@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+footer {
+    padding: 0 10px;
+    background: #000;
+    width: 100%;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row__leftside {
+
+}
+
+
+.logo {
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: #fcba03;
+}
+
+.logo svg {
+    width: 30px;
+    height: 30px;
+    fill: #fcba03;
+}
+
+.logo span {
+    display: block;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.row__center {
+
+}
+
+.row__rightside {
+
+}
+
+nav {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: #fcba03;
+    color: #000;
+}
+
+.social_network {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social_network__follow_me {
+    display: block;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.social_icon {
+    fill: #fff;
+    width: 25px;
+    height: 25px;
+}
+
+.facebook_link:hover .social_icon {
+    fill: #3b5998;
+    background-color: #fff;
+    border-radius: 50%;
+    stroke: #000;
+}
+
+.twitter_link:hover .social_icon {
+    fill: #38A1F3;
+    background-color: #fff;
+    border-radius: 50%;
+    stroke: #000;
+}
+
+.instagram_link:hover .social_icon {
+    fill: #833AB4;
+    background-color: #fff;
+    border-radius: 50%;
+    stroke: #000;
+}

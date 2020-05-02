@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Proxima";
+  src: local("Proxima Nova Bold"), local("Proxima-Nova-Bold"),
+    url(../fonts/Proxima\Nova\Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Proxima";
+  src: local("Proxima Nova Regular"), local("Proxima-Nova-Regular"),
+    url(../fonts/Proxima\Nova\Regular.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Georgia";
+  src: local("Georgia"), local("Georgia"), url(../fonts/Georgia.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "FuturaPT Heavy";
+  src: local("FuturaPT Heavy"), local("FuturaPT-Heavy"),
+    url(../fonts/FuturaPTHeavy.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Georgia - Italic";
+  src: local("Georgia  Italic"), local("Georgia - Italic"),
+    url(../fonts/Georgia-Italic.ttf);
+  font-weight: 400;
+  font-style: italic;
+}
+
+body {
+  font-family: "Proxima", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link href="./styles/style.css" rel="stylesheet">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="auth-wrapper">
+        <div class="container">
+            <form action="#" class="auth-container" method="get">
+                <div class="row tabs">
+                    <div class="tab active">
+                        <span>
+                            Sign in
+                        </span>
+                    </div>
+                    <div class="tab">
+                        <span>
+                            Join us
+                        </span>
+                    </div>
+                </div>
+                <div class="form">
+                    <div class="form__controls">
+                        <label for="username" class="form__label">Username</label>
+                        <input type="text" class="form__input" name="username" minlength="3" id="username">
+                        <div class="form__error">error</div>
+                    </div>
+                </div>
+                <div class="form__controls">
+                    <label for="password" class="form__label">Password</label>
+                    <input required type="password" minlength="8" class="form__input" name="password" id="Password">
+                    <div class="form__error">error</div>
+
+                    <div class="form__controls form__controls--checkbox">
+                        <input checked type="checkbox" name="keep" id="keep">
+                        <label class="form__label form__label--checkbox" for="keep">
+                            <span class="form__checkbox">&#10004</span>
+                            Keep me signed in
+                        </label>
+                    </div>
+                    <div class="form__controls form__controls--submit">
+                        <button type="submit" class="btn btn--primary">Sign in</button>
+                    </div>
+
+                    <div class="form__advanced d-flex justify-content-between">
+                        <a href="#" class="form__link">Forgot password</a>
+                        <a href="#join" class="form__link">Create an account</a>
+                    </div>
+
+                </div>
+
+
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
