@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="./styles/styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Oswald|Baloo+2:500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <video class="background-video">
+            <source src="./videos/background-video.mp4" type="video/mp4">
+        </video>
+        <header>
+            <!-- <img src="./assets/images/logo_beetroot.svg" alt='logo'> -->
+            <nav>
+                <ul>
+                    <li><a href="#about_me">About me</a></li>
+                    <li><a href="#portfolio">Potfolio</a></li>
+                    <li><a href="#feedback">Feedback</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="wrapper">
+
+            <div id="about_me" class="manual-padding-on-top">
+                <!-- CODE FROM LESSON 1 -->
+                <div class="row-content background-color">
+                    <img class="my-photo" src="./images/my_photo.jpg" alt='My photo'>
+                    <div class="personal-info">
+                        <h1>Alexey Polchanov</h1>
+                        <h2>Front-end/Mobile Developer</h2>
+                        <h3>Zhytomyr, Ukraine</h3>
+                        <h4>26 y.o.</h4>
+                        <h5>ezhukovich1@gmail.com</h5>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo illo illum in quod molestiae natus, eos expedita magni nulla maxime ab mollitia amet neque omnis reprehenderit ut, nihil est tempore.</p>
+                <h5 class="title-block">Skills</h5>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+                <h5 class="title-block">Social Network</h5>
+                <ol>
+                    <li><a href="https://www.facebook.com/profile.php?id=100005907043484" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.linkedin.com/in/alexey-polchanov-864372172/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://gitlab.com/Ezhukovich" target="_blank">Gitlab</a></li>
+                </ol>
+                <!-- CODE FROM LESSON 1 END-->
+            </div>
+
+            <div class="triangle-right"></div>
+            
+            <div id="portfolio" class="manual-padding-on-top">
+                <h2 class="content-title">Portfolio</h2>
+                <div class="portfolio-list">
+                    <a class="portfolio-item" href="../lesson 1/index.html" target='_blank'>
+                        <img src="./images/my_photo.jpg" alt="cv">
+                        <div class="item-name">
+                            CV
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="triangle-left"></div>
+            <div id="feedback" class="manual-padding-on-top">
+                <h2 class="content-title">Feedback</h2>
+                <div class="feedback-container">
+                    <form action>
+                        <fieldset>
+                            <label for="email">Enter email</label>
+                            <input type="email" name="email">
+                        </fieldset>
+                        <div class="submit-form-container">
+                            <div class="row">
+                                <input type="checkbox" name="conditions" id="agree">
+                                <label for="agree">I agree to the <a href="#">privacy policy</a> and <a href="#">terms of use</a></label>
+                            </div>
+                            <input type="submit" value="Submit your feedback">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
