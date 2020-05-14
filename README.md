@@ -1,3 +1,4 @@
+git
 git status  | - check your files
 git add . -A  | - add all files to commit
 git commit -m '<your surname>: <What did you do?>' | - describe what did you do with your code
