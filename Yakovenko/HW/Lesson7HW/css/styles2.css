@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #3399CC;
+    border: 15px solid #2B81AC;
+}
+
+.container{
+    width: 720px;
+    height: 600px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.title{
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.advice{
+     margin-top: 20px;
+    font-size: 19px;
+}
+
+.weather__list{
+    font-size: 0;
+    border: 2px solid #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.weather__list:hover li:not(:hover){
+    opacity: .7;
+}
+
+.weather__list p{
+    padding-top: 10px;
+    opacity: .7;
+}
+
+.weather__list li{
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    height: 100px;
+    padding-top: 20px;
+    border: 1px solid #fff;
+}
+
+.weather__list__country1{
+    width: 50%;
+    background-color: #3399CC;
+}
+
+.weather__list__country2{
+    background-color: #33CCCC;
+    width: 25%;
+}
+
+.weather__list__country3{
+    background-color: #996699;
+     width: 25%;
+}
+
+.weather__list__country4{
+    background-color: #C24747;
+     width: 25%;
+}
+
+.weather__list__country5{
+    background-color: #E2674A;
+     width: 25%;
+}
+
+.weather__list__country6{
+    background-color: #FFCC66;
+     width: 25%;
+}
+
+.weather__list__country7{
+    background-color: #99CC99;
+     width: 25%;
+}
+
+.weather__list__country8{
+    background-color: #669999;
+     width: 25%;
+}
+
+.weather__list__country9{
+    width: 50%;
+    background-color: #CC6699;
+}
+
+.weather__list__country10{
+    background-color: #339966;
+     width: 25%;
+}
+
+.weather__list__country11{
+    width: 100%;
+    background-color: #666699;;
+}

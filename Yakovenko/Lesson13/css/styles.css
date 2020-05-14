@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    height: 100%;
+    width: 100px;
+}
+
+nav a:last-child{
+    margin: 0;
+}
+
+nav a:hover{
+    background-color: red;
+}
+
+.row{
+    width: 970px;
+    height: 100%;
+    margin: 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.column__title{
+    font-size: 10px
+}
+
+.apple{
+    fill: #fff;
+    opacity: .6;
+    height: 50px;
+    width: 50px;
+}
+
+.apple:hover{
+    opacity: 1;
+}
+
+.twitter{
+   height: 40px;
+   width: 40px;
+    fill: #666;
+}
+
+.twitter:hover{
+    fill: #55ACEE;
+}
+
+.facebook{
+    width: 40px;
+    height: 40px;
+    fill: #666;
+}
+
+.facebook:hover{
+    fill: blue;
+}
+
+
+.telegram{
+    width: 40px;
+    height: 40px;
+    fill: #666;
+}
+
+.telegram:hover{
+    fill: #039be5;
+}

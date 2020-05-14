@@ -1,0 +1,19 @@
+@import 'variables';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 700px;
+    margin: 0 auto;
+}
+
+
+@mixin flex($direction, $align-items, $justify-content){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
