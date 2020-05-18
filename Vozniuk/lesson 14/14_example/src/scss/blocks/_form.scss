@@ -1,0 +1,53 @@
+.form {
+    &__field {
+        margin-bottom: 19px;
+
+        &--advanced {
+            display: flex;
+            align-items: stretch;
+        }
+    }
+
+    &__input {
+        background-color: transparent;
+        width: 100%;
+        padding: 15px 20px;
+        border: 1px solid $color-grey-lighten-1;
+        border-radius: 5px;
+
+        &:focus {
+            border-color: $color-success;
+            outline: none;
+        }
+
+        @include placeholder {
+            color: #666;
+            font-family: $font-secondary;
+            font-size: 16px;
+            font-style: italic;
+            line-height: 1;
+        }
+
+        &--textarea {
+            min-height: 161px;
+            border-right: none;
+            resize: none;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+    }
+
+    &__submit {
+        border: none;
+        cursor: pointer;
+        max-width: 40px;
+        min-width: 40px;
+        background-color: $color-success;
+        border-radius: 0px 5px 5px 0px;
+        color: white;
+
+        &:hover {
+            background-color: darken($color: $color-success, $amount: 20%);
+        }
+    }
+}
