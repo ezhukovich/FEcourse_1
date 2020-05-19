@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "Raleway-Bold", sans-serif;
+    src: url(./fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-Light", sans-serif;
+    src: url(./fonts/Raleway-Light.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.c-block-contact {
+    width: 1500px;
+    height: 956px;
+    background: url(./img/bg.png) no-repeat;
+
+}
+
+.l-container {
+    margin: 0 auto;
+    
+}
+
+.c-caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c-caption__header {
+    font-family: "Raleway-Bold", sans-serif;
+    font-size: 90px;
+    
+    margin-top: 80px;
+    
+}
+
+.c-caption__desc {
+    font-family: "Raleway-Light", sans-serif;
+    font-size: 17px;
+    width: 370px;
+    text-align: center;
+    margin: 25px 0  45px 0;
+    color: #262626;
+}
+
+.c-main-container {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.c-contact-form {
+    display: flex;
+    flex-direction: column;
+    height: 445px;
+    width: 500px;
+}
+
+.c-form-item {
+    height: 50px;
+    background-color: #00C4C4;
+    opacity: .5;
+    padding: 17px 0 15px 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+    vertical-align: top;
+    position: relative;
+    
+}
+
+.c-form-item:hover {
+   opacity: 1;
+   transition: all ease-out 0.5s;
+   
+}
+
+.c-form-item:focus {
+    border-left: 5px solid  #355B82;
+    opacity: 1;
+}
+
+.c-form-item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+input::-moz-placeholder {
+     color: #fff; 
+     }
+input::-webkit-input-placeholder { 
+    color: #fff;
+    
+ }
+
+ textarea::-moz-placeholder {
+    color: #fff; 
+    }
+textarea::-webkit-input-placeholder { 
+   color: #fff;
+   
+}
+
+.c-form-item--large-height {
+    height: 250px;
+    text-align: top;
+}
+
+.c-contact-info {
+    height: 189px;
+    width: 500px;
+    margin-left: 170px;
+    color: #262626;
+    line-height: 25px;
+}
+
+.c-contact-info h5 {
+    font-family: "Raleway-Bold", sans-serif;
+    font-size: 17px;
+    padding: 5px 0;
+}
+
+.c-contact-info p {
+    font-family: "Raleway-Light", sans-serif;
+    font-size: 20px;
+}
+
+.c-contact-form__btn {
+    font-family: 'Raleway-Bold', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    height: 55px;
+    background-color: #FF2B58;
+    text-transform: uppercase;
+    padding: 10px 22px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 3px 5px rgb(0,0,0,.5);
+    opacity: .8;
+    
+}
+
+.c-contact-form__btn:hover {
+    box-shadow: rgb(0,255,255,.8);
+    opacity: 1;
+    transition: all ease-out 0.5s;
+}
+
+.c-cahee-footer {
+    height: 90px;
+    background-color: #262626;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #B9B9B9;
+}
+
+.c-cahee-footer_logo {
+    font-size: 80px;
+    margin-top: 80px;
+
+
+}

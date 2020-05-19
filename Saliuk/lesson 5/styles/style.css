@@ -223,14 +223,290 @@ nav a:hover {
 }
 
 .block4 {
+<<<<<<< HEAD:Levkivskyi/Lesson5/style CSS/styles.css
+  padding-bottom: 112px;
   background: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+.block4 .description {
+  max-width: 446px;
 }
 
 .block4 .line {
   width: 130px;
   background: #ff2d2d;
+  margin: 28px 0 72px 0;
+}
+.block4 .left-side {
+  border: 1px solid #eceece;
+  width: 321px;
+  height: 458px;
+  margin: 0 74px 0 8px;
+  background: #f6f2f2;
+}
+
+.block4 .right-side .regular-title {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.block4 .right-side .description {
+  max-width: 630px;
+  margin: 0 0 40px 0;
+}
+
+.social {
+  display: flex;
+  width: 375px;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.block4 .italic-subtitle {
+  color: #4e4e4e;
+  font-weight: 600;
+  font-size: 18px;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.block4 .row {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.block4 .portfolio {
+  margin-bottom: 0;
+  flex-wrap: nowrap;
+}
+
+.block4 .portfolio-item {
+  position: relative;
+  border: 1px solid #eceece;
+  width: 197px;
+  height: 214px;
+  margin: 0 20px 0 0;
+  background: #f6f2f2;
+  cursor: pointer;
+}
+
+.component {
+  display: none;
+  z-index: 3;
+  width: 197px;
+  height: 37px;
+  background: #7a786e;
+  margin-top: 177px;
+}
+
+.block4 .portfolio-item:hover .component {
+  display: block;
+}
+
+.signature {
+  font-weight: 600;
+  font-size: 18px;
+  max-width: 197px;
+  color: rgb(225, 225, 225);
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  line-height: 2em;
+}
+.block5 {
+  background-color: #f6f2f2;
+  padding: 140px 240px;
+}
+
+.block5 .container {
+=======
+  background: #fff;
+>>>>>>> cd6f52d102935d07d4a0472f07795445ee83a975:Saliuk/lesson 5/styles/style.css
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+<<<<<<< HEAD:Levkivskyi/Lesson5/style CSS/styles.css
+.block5 .regular-title {
+  text-transform: none;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 1099px;
+}
+
+.block5 .description {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 31px 0 62px 0;
+}
+
+form {
+  display: flex;
+}
+
+fieldset {
+  border: none;
+}
+
+input {
+  text-align: start;
+  text-indent: 36px;
+  line-height: normal;
+  height: 79px;
+  background: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 16px;
+  color: rgba(44, 44, 44, 0.7);
+  text-transform: none;
+  width: 521px;
+  border: none;
+  border-radius: 5px;
+}
+
+.button {
+  font-size: 18px;
+  line-height: 34px;
+  height: 79px;
+  display: block;
+  background: rgb(255, 45, 45);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  width: 214px;
+  border: none;
+  margin-left: 22px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.block6 {
+  padding: 100px 0 110px 0;
+  background: #fff;
+}
+
+.block6 .description {
+  max-width: 720px;
+  margin-top: 51px;
+}
+
+.block6 .line {
+  width: 130px;
+  background: #ff2d2d;
+  margin: 28px 0 72px 0;
+}
+
+.block6 form {
+  flex-direction: column;
+}
+
+.block6 input {
+  background-color: #e5e5e5;
+  width: 339px;
+  height: 69px;
+  border-radius: 10px;
+  margin-right: 54px;
+  margin-bottom: 46px;
+  text-indent: 53px;
+}
+
+textarea {
+  height: 249px;
+  padding: 20px;
+  border: none;
+  text-align: start;
+  text-indent: 53px;
+  line-height: normal;
+  background: #e5e5e5;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+  text-transform: none;
+  width: 731px;
+  box-sizing: border-box;
+  resize: none;
+  border-radius: 10px;
+  padding: 35px 0 0 0;
+}
+
+.block6 .button {
+  height: 72px;
+  width: 728px;
+  border-radius: 5px;
+  margin: 45px 0 0 0;
+}
+
+.block6 .row {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.block6 .right-side {
+  background-color: #2d2d2d;
+  margin-left: 54px;
+  max-width: 577px;
+}
+
+.contact-title {
+  font-size: 18px;
+  font-weight: 700;
+  max-width: 138px;
+  color: #dbdbdb;
+  margin-top: 145px;
+  margin-left: 79px;
+  text-transform: uppercase;
+}
+
+.block6 .description {
+  max-width: 285px;
+  margin: 41px 0 0 79px;
+  color: #dbdbdb;
+}
+.contact-mail {
+  color: #dbdbdb;
+  font-size: 14px;
+  margin: 27px 0 0 81px;
+}
+
+.contact-phone {
+  color: #dbdbdb;
+  font-size: 14px;
+  margin: 33px 0 146px 81px;
+}
+
+footer {
+  background-color: #313030;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  max-width: 352px;
+}
+.copyright {
+  font-size: 16px;
+  color: #b1b1b1;
+  padding: 56px 0 40px 0;
+  max-width: 352px;
+}
+.social-networks {
+  max-width: 198px;
+  margin-top: 45px;
+  display: flex;
+}
+
+.social-icon {
+  width: 34px;
+  height: 34px;
+  margin-right: 17px;
+=======
+.block4 .line {
+  width: 130px;
+  background: #ff2d2d;
   margin: 28px 0 81px;
+>>>>>>> cd6f52d102935d07d4a0472f07795445ee83a975:Saliuk/lesson 5/styles/style.css
 }
