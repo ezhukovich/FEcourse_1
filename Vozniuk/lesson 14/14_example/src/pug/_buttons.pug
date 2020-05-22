@@ -1,0 +1,7 @@
+each val, index in ['facebook', 'twitter', 'instagram', 'dribbble']
+    .col.col-6
+        a(href="javascript:void(0)", class="btn--" + val).btn= index
+            if (val == 'facebook')
+                i(class=`fab fa-${val}-f`)
+            else
+                i(class=`fab fa-${val}`)

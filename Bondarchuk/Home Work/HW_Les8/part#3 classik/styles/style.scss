@@ -1,0 +1,77 @@
+@import'variables';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@mixin flex($direction, $justify-content, $align-items) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}
+
+@mixin color($background,) {
+  background: #cccccc
+}
+@mixin hover ($border, $opacity, $color, $border-radius) {
+  border: $border;
+  opacity: $opacity;
+  color: $color;
+border-radius: $border-radius;
+
+
+  
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto 10px;
+  background: #cccccc;
+  text-align: center;
+
+   h2 {
+font-size: 25px;
+color: $default-color-text;
+  }
+}
+.classick {
+  @include flex(column, center, center);
+  width: 105px;
+  height: 500px;
+  margin: 0 auto;
+  background: #cccccc;
+
+.block_smile svg {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 20px;
+  opacity: 1;
+}
+  .row {
+    @include flex(row, center,center);
+  }
+
+  .block {
+    @include flex(row, center, center);
+    width: $classics-size;
+    height: $classics-size;
+    font-size: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background: orange;
+
+  }
+
+}
+.block__cube:hover {
+  @include hover(2px solid white, 0.8, whitesmoke, 5px);
+  background: #b81004;
+ 
+}
+
+.block__rectangle:hover {
+  @include hover(2px solid white, 0.8, #b81004, 5px);
+
+}
