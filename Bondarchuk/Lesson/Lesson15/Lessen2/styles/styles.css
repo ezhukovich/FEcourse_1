@@ -49,7 +49,7 @@ header {
 }
 
 header ul {
-    width: 300px;
+    width: 600px;
     justify-content: space-around;
     
 }
@@ -327,6 +327,25 @@ header a:hover {
     font-size: 20px;
     width: 300px;
 }
+.mobile-option-def {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.mobile-option--btn {
+    width: 42px;
+    height: 42px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    display: none;
+    cursor: pointer;
+}
+.mobile-option-btn img {
+    width: 100%;
+    height: auto;
+}
+
 
 @media screen and (max-width: 999px) {
     /* .background-video {
@@ -365,8 +384,31 @@ header a:hover {
     .my-photo {
         margin-bottom: 10px;
     }
-    .personal-info {
+    /* .personal-info {
 
+    } */
+   .header {
+       min-height: 65px;
+   }
+   .mobile-list {
+       display: block;
+   }
+   .mobile-list li {
+        min-width: 100px;
+        text-align: center;
+   }
+   .mobile-list li a {
+       display: block;
+   } 
+    nav {
+        display: none;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .mobile-option--btn.active {
+        display: flex;
     }
 
 }

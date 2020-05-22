@@ -42,7 +42,6 @@ body {
 .picture-cup {
   margin-bottom: 50px;
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
 }
 .name-cup {
