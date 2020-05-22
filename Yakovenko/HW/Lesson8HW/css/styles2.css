@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #E2E7EC;
+}
+
+.block.block__large{
+     width: 740px;
+    justify-content: flex-end;
+    background: url(/img/Layer%208.svg);
+}
+
+.block{
+    width: 360px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: #fff;
+}
+
+.description{
+    height: 100%;
+    width: 292px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.part h2{
+    margin: 20px 0;
+    font-weight: 400;
+    opacity: .7;
+}
+
+.block__large__description{
+    width: 410px;
+    height: 76px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.block__large__description h2{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.block__large__description .part{
+    margin: 0 0 20px 20px
+}
+
+
+.block > img{
+    width: 100%;
+    height: auto;
+}
+
+.decription__image{
+    margin-bottom: 20px;
+}
+
+.block__large__description{
+    color: #fff;
+    justify-content: flex-end
+}
+
+.title{
+    width: 298px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 25px
+}

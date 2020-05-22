@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <div class="auth-wrapper">
+        <div class="container">
+            <form action="#" method="get" class="auth-container">
+                <div class="row tabs">
+                    <div class="tab active">
+                        <span>
+                            Sign in
+                        </span>
+                    </div>
+                    <div class="tab">
+                        <span>
+                            Join us
+                        </span>
+                    </div>
+                </div>
+                <div class="form">
+                    <div class="form__controls">
+                        <label for="username" class="form__label">Username</label>
+                        <input type="text" id="username" class="form__input" name="username" minlength="3">
+                        <div class="form__error">
+                            error
+                        </div>
+                        <label for="password" class="form__label">Password</label>
+                        <input type="password" id="password" class="form__input" name="password" minlength="8">
+                        <div class="form__error">
+                            error
+                        </div>
+                        <div class="form__controls form__controls--checkbox">
+                            <input checked type="checkbox" name="keep" id="keep">
+                            <label for="keep" class="form__label form__label--checkbox">
+                                <span class="form__checkbox">&#10004;</span>
+                                Keep me sign in
+                            </label>
+                        </div>
+                    </div>
+                 </div>
+            </form>
+
+        </div>
+    </div>
+
+</body>
+</html>

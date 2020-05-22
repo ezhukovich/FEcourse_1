@@ -1,1 +1,16 @@
 https://code.tutsplus.com/ru/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+
+Почему -с в БЭМ
+https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/
+
+Инструмент для SVG
+https://jakearchibald.github.io/svgomg/
+
+SVG editor
+http://petercollingridge.appspot.com/svg-editor
+
+SVG npm svgo
+https://github.com/svg/svgo
+
+Библиотека для svg
+https://snapsvg.io/
