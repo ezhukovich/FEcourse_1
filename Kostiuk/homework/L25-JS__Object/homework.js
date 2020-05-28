@@ -141,23 +141,43 @@ showTime();
 let changeSeconds = (timer, sec) => {
     for (let key in timer) {
         if ( key == 'seconds') {
-            timer[key] += sec;
+
+            if ((timer[key] + sec) > 60) {
+
+                timer.minutes += 1;
+                return timer[key] = (sec + timer[key]) - 60;
+
+            }
+            else {
+                timer[key] += sec;
+            }
+
+           
         }
     }
 }
 
-changeSeconds(timer, 20);
+changeSeconds(timer, 30);
 
 
 let changeMinutes = (timer, min) => {
     for (let key in timer) {
         if (key == 'minutes') {
-            timer[key] += min;
+            if ((timer[key] + min) > 60) {
+                
+                timer.hours += 1;
+                return timer[key] =  (min + timer[key]) - 60;
+                       
+            }
+            else {
+                timer[key] += min;
+            }
+           
         }
     }
 }
 
-changeMinutes(timer, 10);
+changeMinutes(timer, 57);
 
 
 let changeHours = (timer, hrs) => {
