@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #fff;
+
+}
+
+.header {
+    width: 1920px;
+    background-image: url('../images/hero-bg.jpg.png');
+    margin: 0;
+}
+
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.header__logo {
+    width: 60px;
+    height: 60px;
+    padding-top: 284px;
+}
+
+.header__title {
+    width: 800px;
+    height: 200px;
+}
+
+.container {}
