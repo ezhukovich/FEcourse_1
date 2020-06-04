@@ -1,0 +1,367 @@
+@import "./../abstract/constants";
+
+.header {
+    width: 100%;
+    height: 75px;
+    background-color: $color-headerbg;
+}
+
+.logo {
+    @include flex(center, center);
+
+    width: 160px;
+    height: 50px;
+    margin-left: 150px;
+    margin-right: 55px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
+
+.navigation {
+    @extend %flexList;
+    width: 470px;
+    height: 20px;
+    padding: 0;
+}
+
+.navigation__link {
+    font-size: 14px;
+    line-height: 24px;
+    color: #96a6a7;
+    font-family: "Gotham", sans-serif;
+    font-weight: 500;
+}
+
+.header__wrapper {
+    width: 100%;
+}
+
+.header__nav {
+    @include flex();
+    width: 100%;
+}
+
+.login-block {
+    @include flex();
+    width: 390px;
+}
+
+.search__icon {
+    @include flex(center, center);
+    width: 74px;
+    height: 74px;
+    background-color: #e2dee0;
+    cursor: pointer;
+}
+
+.login__button {
+    @include flex(flex-start, center);
+    padding-left: 40px;
+    width: 316px;
+    height: 74px;
+    background-color: #e94e38;
+}
+
+.login__link::before {
+    content: url(/images/man-icon.png);
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.login__link {
+    @include flex();
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Gotham", sans-serif;
+    font-weight: 500;
+}
+
+.search__form--header {
+
+    width: 100%;
+    height: 377px;
+    padding-top: 35px;
+    background: url(/images/Bacjground.png) no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    // position: relative;
+}
+
+.wrapper__search__form {
+    width: 100%;
+    height: 375px;
+}
+
+.container__search-form {
+    @include flex($direction:column);
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+    // background-color: red;
+    position: relative;
+    top: -462px;
+    z-index: 4;
+}
+
+.search__form--header::before {
+    content: url(/images/backgroundLayer.png);
+    // position: relative;
+    z-index: 3;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 48px;
+    margin-top: 0;
+    color: #ffffff;
+    font-family: "Gotham", sans-serif;
+    font-weight: 500;
+    filter: drop-shadow(0px 1px 0.5px rgba(0, 0, 1, 0.15));
+}
+
+.search-form {
+    @include flex();
+    flex-wrap: wrap;
+    width: 475px;
+}
+
+.cities-dropdown {
+    width: 220px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.10196078431372549);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    font-family: "Gotham", sans-serif;
+    text-align: left;
+    padding: 10px 23px;
+    margin-right: 5px;
+
+    // outline: none;
+
+    // position: relative;
+    // display: block;
+
+    // line-height: 3;
+    // overflow: hidden;
+
+    // padding-bottom: 10px;
+}
+
+
+// DROPDOWN STYLE???
+
+.hide {
+    max-height: 0 !important;
+}
+
+.dropdown {
+    // border: 0.1em solid black;
+    // width: 10em;
+    // margin-bottom: 1em;
+
+
+    width: 220px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.10196078431372549);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    font-family: "Gotham",
+        sans-serif;
+    text-align: left;
+    padding: 10px 23px;
+    margin-right: 5px;
+}
+
+.dropdown .title {
+    margin: .3em .3em .3em .3em;
+    width: 100%;
+}
+
+.dropdown .title .fa-angle-right {
+    float: right;
+    margin-right: .7em;
+    transition: transform .3s;
+}
+
+.dropdown .menu {
+    transition: max-height .5s ease-out;
+    max-height: 20em;
+    overflow: hidden;
+
+    background: black;
+    opacity: 0.87;
+    z-index: 3;
+    position: relative;
+}
+
+.dropdown .menu .option {
+    margin: .3em .3em .3em .3em;
+    margin-top: 0.3em;
+
+    background-color: rgba(255, 255, 255, 0.101961);
+    position: relative;
+}
+
+.dropdown .menu .option:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.pointerCursor:hover {
+    cursor: pointer;
+}
+
+.rotate-90 {
+    transform: rotate(90deg);
+}
+
+// 2
+.hide2 {
+    max-height: 0 !important;
+}
+
+.dropdown2 {
+    // border: 0.1em solid black;
+    // width: 10em;
+    // margin-bottom: 1em;
+
+
+    width: 220px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.10196078431372549);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    font-family: "Gotham",
+        sans-serif;
+    text-align: left;
+    padding: 10px 23px;
+    margin-right: 5px;
+}
+
+.dropdown2 .title2 {
+    margin: .3em .3em .3em .3em;
+    width: 100%;
+}
+
+.dropdown2 .title2 .fa-angle-right2 {
+    float: right;
+    margin-right: .7em;
+    transition: transform .3s;
+}
+
+.dropdown2 .menu2 {
+    transition: max-height .5s ease-out;
+    max-height: 20em;
+    overflow: hidden;
+
+    background: black;
+    opacity: 0.87;
+    z-index: 3;
+    position: relative;
+}
+
+.dropdown2 .menu2 .option2 {
+    margin: .3em .3em .3em .3em;
+    margin-top: 0.3em;
+
+    background-color: rgba(255, 255, 255, 0.101961);
+    position: relative;
+}
+
+.dropdown2 .menu2 .option2:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.pointerCursor:hover {
+    cursor: pointer;
+}
+
+.rotate-90 {
+    transform: rotate(90deg);
+}
+
+
+
+.fa-angle-right2 {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+
+// DROPDOWN STYLE???
+
+
+
+
+input[type="search"].keyword::-webkit-input-placeholder {
+    color: #ffff;
+}
+
+input[type="submit"] {
+    width: 140px;
+    height: 60px;
+    margin: 25px 165px 35px;
+    border-radius: 30px;
+    filter: drop-shadow(0px 2px 0px #c1412e);
+    background-color: #e94e38;
+    border: none;
+    align-self: center;
+
+    font-size: 18px;
+    line-height: 48px;
+    color: #ffffff;
+    font-family: "Gotham", sans-serif;
+    font-weight: 500;
+    filter: drop-shadow(0px 1px 0.5px rgba(0, 0, 1, 0.15));
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.keyword {
+    width: 470px;
+    margin-top: 22px;
+}
+
+// select {
+//     font-size: 18px;
+//     line-height: 30px;
+//     color: #ffffff;
+//     font-family: "Gotham";
+
+
+//     appearance: none;
+//     outline: 0;
+
+//     background-image: none;
+//     width: 100%;
+//     height: 100%;
+
+//     cursor: pointer;
+//     border: 1px solid black;
+//     border-radius: 3px;
+// }
+
+@media screen and (max-width: 1023px) {
+    .header {
+        width: 100%;
+
+    }
+
+}

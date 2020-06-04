@@ -1,0 +1,13 @@
+%flexList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    li {
+        cursor: pointer;
+    }
+}
+
+%transition {
+    transition: all .3s ease-out;
+}

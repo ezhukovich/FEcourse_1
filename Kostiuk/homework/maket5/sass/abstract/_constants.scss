@@ -1,0 +1,22 @@
+$color-headerbg: #ffffff;
+$color-mainbg: #f3f1f2;
+$color-btn__submit: #e94e38;
+$color-icon__home: rgba(27, 175, 94, 0.938);
+$color-icon__home-border:rgba(22, 142, 75, 0.001);
+$color-home__border-active: rgba(22, 142, 75, 0.988);
+$color-icon__music:#f19e1f;
+$color-icon__bus:#88499c;
+
+
+$content-width: 1290px;
+
+
+
+
+
+@mixin flex ($justfy: space-between, $align: center, $direction: row) {
+    display: flex;
+    justify-content: $justfy;
+    align-items: $align;
+    flex-direction: $direction;
+}
