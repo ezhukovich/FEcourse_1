@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,400i,700|Karla');
+
+@import './blocks/blocks.scss';
+
+body {
+    // background-image: url('../psd.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    font-family: $font-primary;
+    color: $color-grey;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}

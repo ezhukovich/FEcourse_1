@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="images/photo5258209752347946518.jpg">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <div class="auth-wrapper">
+    <div class="container">
+      <form class="auth-container" action="#" method="get">
+        <div class="row tabs">
+          <div class="tab active">
+            <span>Sign in</span>
+          </div>
+          <div class="tab">
+            <span>Join us</span>
+          </div>
+        </div>
+        <div class="form">
+          <div class="form__controls">
+            <label class="form__label" for="Username">Username</label>
+            <input type="text" id='username' class="form__input" minlength='3'>
+            <div class="form__error">Error</div>
+          </div>
+          <div class="form__controls">
+            <label class="form__label" for="password">Password</label>
+            <input type="password" id='password' class="form__input" minlength='8'>
+            <div class="form__error">Error</div>
+          </div>
+          <div class="form__controls form__controls--checkbox">
+            <input checked type="checkbox" name='keep' id='keep'>
+            <label class="form__label form__label--checkbox" for='keep'>
+              <span class="form__checkbox">&#10004</span>
+              Keep me signed in
+            </label>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

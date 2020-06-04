@@ -1,0 +1,185 @@
+@font-face{
+    font-family: 'Releway-Bold', sans-serif;
+    src: url(./font/Raleway-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'Releway-Light', sans-serif;
+    src: url(./font//Raleway-Light.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1em;
+    color: #fff;
+    max-height: 864px;
+    font-family: 'Raleway-Bold', sans-serif;
+    
+}
+
+.uppercase {
+    text-transform: uppercase;
+    
+}
+
+.container  {
+    display: flex;
+    width: 1500px;
+    height: 864px;
+    margin: 100px  auto 0;
+    text-align: center;
+    background-color: #B07CF7;
+    
+}
+
+.blog-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 105px auto 120px auto;
+
+}
+
+.blog-container h1 {
+    height: fit-content;
+    font-size: 90px;
+    line-height: 25px;
+    margin-bottom: 73px;
+   
+}
+
+p {
+    font-family: 'Releway-Light', sans-serif;
+    font-size: 17px;
+    max-width: 570px;
+    height: auto;
+    margin-bottom: 44px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.articles {
+    width: auto;
+    display: flex;
+    margin-bottom: 50px;
+    
+}
+
+.preview-block {
+    height: 310px;
+    width: 370px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+     
+}
+
+.preview-block:hover {
+    cursor: pointer; 
+    transition: ease-out 0.7s;
+    opacity: .7;
+    box-shadow: 0 0 30px rgba(0,0,0,0.7);
+    filter: blur(0.2px);
+}
+
+.preview-block:nth-child(n+1):not(:first-child) {
+    margin-left: 30px;
+}
+
+.smoothy {
+    
+    background-image: url(./img/smoothy.png);
+
+}
+.darkness {
+    background-size: cover;
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    letter-spacing: 55px;
+}
+
+.darkness:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,16%);
+    z-index: 2;
+  }
+.soup {
+    background-image: url(./img/soup.png);
+    background-position: bottom ;
+
+}
+
+.berries {
+    background-image: url(./img/berries.png);
+    background-size: cover;
+    
+}
+.date-icon {
+    background: rgba(38,38,38,.8);
+    width: 65px;
+    height: 67px;
+    white-space: pre;
+    position: relative;
+    z-index: 2;
+    font-size: 32px;
+    font-weight: bold;
+    top: 28px;
+    left: 30px;
+    border-radius: 5px;
+    
+}
+
+.date-icon span {
+    display: block;
+    font-size: 21px;
+    font-weight: bold;
+    
+}
+
+.description {
+    height: 115px;
+    position: relative;
+    text-align: start;
+    top: 130px;
+    font-weight: bold;  
+    z-index: 2;
+    
+    
+}
+
+h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.description span {
+    font-weight: 30;
+    font-family: 'Releway-Light', sans-serif;
+}
+
+.btn {
+    font-family: 'Releway-Light', sans-serif;
+    font-size: 20px;
+    width: 200px;
+    height: 55px;
+    background-color: #F72B3B;
+    padding: 15px 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: ease-out 0.7s;
+    opacity: .7;
+    box-shadow: 0 0 30px rgba(0,0,0,0.7);
+    filter: blur(0.2px);
+}

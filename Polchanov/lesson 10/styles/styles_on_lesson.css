@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans', sans-serif;
+}
+
+body {
+    background: #ededed;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+img[class*='gif'] {
+    position: absolute;
+    max-width: 350px;
+    height: auto;
+}
+
+.gif-recursion {
+    top: -100px;
+    right: 0;
+    transform: rotate(20deg);
+}
+
+.gif-reading {
+    right: 0;
+    bottom: 0;
+}
+
+.gif-dance {
+    top: -100px;
+    left: 100px;
+    transform: rotate(-45deg);
+    z-index: -1;
+}
+
+.gif-rainbow {
+    left: -250px;
+    bottom: 0;
+    transform: rotate(-20deg);
+}
+
+.row {
+    display: flex;
+}
+
+.monsters {
+    margin-top: 20px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.monster-item {
+    width: 250px;
+    height: 300px;
+    padding: 5px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.monster-item img {
+    width: 100%;
+    height: auto;
+    transition: all .4s ease-in;
+}
+
+.name {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    transition: all .6s ease-in;
+    opacity: 0;
+}
+
+.monster-item:hover img {
+    transform: scale(1.2);
+}
+
+.monster-item:hover .name {
+    transform: translateY(30px);
+    opacity: 1;
+}
+
+.task {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.task h5 {
+    font-size: 24px;
+    color: #ff0000;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.subtitle, .hints {
+    font-size: 20px;
+    transform: scale(0);
+    transition: all 1s ease-in;
+}
+
+.hints {
+    background: #fff;
+    padding: 5px;
+    width: max-content;
+    border-radius: 5px;
+}
+
+.hints span {
+    display: block;
+    margin: 10px 0;
+}
+
+.balls:hover + .subtitle {
+    transform: scale(1);
+    transition-delay: 5s;
+}
+
+.balls:hover + .subtitle + .hints {
+    transform: scale(1);
+    transition-delay: 5s;
+}
+
+/* SOLUTION FOR TASK */
+.balls {
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: space-between; */
+}
+
+.ball {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 20px;
+    transition: all 1s ease-in;
+    opacity: 0;
+}
+
+.balls span {
+    transition: all .9s ease-in;
+}
+
+.ball1 {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    z-index: 4;
+}
+
+.ball2 {
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+    z-index: 3;
+}
+
+.ball3 {
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    z-index: 2;
+}
+
+.ball4 {
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    z-index: 1;
+}
+
+.balls:hover .ball1 {
+    transform: translateX(125px) rotate(360deg);
+    transition-delay: 1s;
+    opacity: 1;
+}
+
+.balls:hover .ball1 span {
+    transform: rotate(360deg);
+    transition-delay: 1.1s;
+    /* transition-delay: .9s; */
+}
+
+.balls:hover .ball2 {
+    background-color: blue;
+    transform: translateX(103px);
+    transition-delay: 2s;
+    opacity: 1;
+}
+
+.balls:hover .ball2 span {
+    transform: rotate(360deg);
+    transition-delay: 2.1s;
+}
+
+.balls:hover .ball3 {
+    transform: translateX(80px);
+    transition-delay: 3s;
+    opacity: 1;
+}
+
+.balls:hover .ball3 span {
+    transform: rotate(360deg);
+    transition-delay: 3.1s;
+}
+
+.balls:hover .ball4 {
+    transform: translateX(60px);
+    transition-delay: 4s;
+    opacity: 1;
+}
+
+.balls:hover .ball4 span {
+    transform: rotate(360deg);
+    transition-delay: 4.1s;
+}
+
+/* SOLUTION FOR TASK END */

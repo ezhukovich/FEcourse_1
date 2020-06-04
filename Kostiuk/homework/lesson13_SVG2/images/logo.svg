@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 72" width="70" height="72">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #ffffff;stroke-width: 2 } 
+		.shp1 { fill: none;stroke: #f6f7fc;stroke-width: 2 } 
+		.shp2 { fill: #ffffff } 
+	</style>
+	<g id="header">
+		<g id="logo.svg">
+			<path id="Rectangle 1" class="shp0" d="M64.67 68.86L35.86 13.86L7.05 68.86L64.67 68.86Z" />
+			<path id="Ellipse 1" class="shp1" d="M35.5 1C54 1 69 15.87 69 34.21C69 52.56 54 67.43 35.5 67.43C17 67.43 2 52.56 2 34.21C2 15.87 17 1 35.5 1Z" />
+			<path id="Ellipse 1 copy 8" class="shp2" d="M35.86 63.86C37.85 63.86 39.46 65.46 39.46 67.43C39.46 69.4 37.85 71 35.86 71C33.87 71 32.26 69.4 32.26 67.43C32.26 65.46 33.87 63.86 35.86 63.86Z" />
+			<path id="Ellipse 1 copy 9" class="shp2"   d="M62.52 63.86C64.51 63.86 66.12 65.46 66.12 67.43C66.12 69.4 64.51 71 62.52 71C60.53 71 58.91 69.4 58.91 67.43C58.91 65.46 60.53 63.86 62.52 63.86Z" />
+			<path id="Ellipse 1 copy 11" class="shp2" d="M7.04 63.86C9.03 63.86 10.65 65.46 10.65 67.43C10.65 69.4 9.03 71 7.04 71C5.05 71 3.44 69.4 3.44 67.43C3.44 65.46 5.05 63.86 7.04 63.86Z" />
+		</g>
+	</g>
+</svg>

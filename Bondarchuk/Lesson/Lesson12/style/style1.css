@@ -1,0 +1,119 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comic Neue', cursive, sans-serif;
+}
+
+
+footer {
+  width: 100%;
+  padding: 0 20px;
+  background: #cccccc;
+  }
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #f10cad;
+}
+
+.logo svg {
+  width: 60px;
+  height: 60px;
+  fill: #000000;
+}
+
+.logo span {
+  display: block;
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+nav {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  display: block;
+  color: rgb(14, 129, 81);
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 32px;
+  font-size: 20px;
+}
+
+nav a:hover {
+  background-color: #c00606;
+  color: #000;
+}
+
+.social_network {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.social_network__follow_me {
+  display: block;
+  font-weight: 800;
+  color: rgba(245, 189, 7, 0.897);
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.social_icon {
+  fill: #fff;
+  width: 30px;
+  height: 30px;
+ 
+}
+
+.logo:hover {
+  stroke: rgb(14, 129, 81);
+  fill: #833AB4;
+}
+.facebook_link:hover .social_icon {
+   margin-right: 5px;
+}
+
+.telegram_link:hover .social_icon {
+  background-color: #000;
+  border-radius: 50%;
+  stroke: #f10cad;
+}
+
+.twitter_link:hover .social_icon {
+  fill: #833AB4;
+  background-color: rgb(233, 48, 48);
+  border-radius: 50%;
+  stroke: #ffffff;
+} 
+.youtube_link:hover .social_icon {
+  fill: #833AB4;
+  background-color: rgb(79, 43, 241);
+  border-radius: 20%;
+  stroke: #ffffff;
+}

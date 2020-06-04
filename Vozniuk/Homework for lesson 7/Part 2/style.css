@@ -59,16 +59,17 @@ ul li {
     box-sizing: content-box;
     position: relative;
     color: #fff;
-}
-
-ul:hover > li{
-    opacity: 0.6;
     cursor: pointer;
 }
 
-ul:hover > li:hover {
-    opacity: 1.0;
+ul:hover li:not(:hover){
+    opacity: 0.6;
+    
 }
+
+/* ul:hover > li:hover {
+    opacity: 1.0;
+} */
 
 /* Задаем отступы */
 
@@ -128,4 +129,5 @@ h2 {
     padding-top: 10px;
     font-size: 20px; 
     cursor: auto;
+
 }

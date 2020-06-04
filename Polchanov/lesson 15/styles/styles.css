@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #ededed;
+}
+
+.container {
+    display: flex;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.number_one {
+    width: 300px;
+    height: 100px;
+    border-top: 1px dashed red;
+    border-radius: 50%;
+}
+
+.box {
+    width: 70px;
+    height: 70px;
+    background-color: #ededed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sm_box {
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+}
+
+.space_container {
+    position: relative;
+}
+
+.space {
+    width: 310px;
+    height: 100px;
+    background-color: #ededed;
+}
+
+.space_1 {
+    display: block;
+    width: 300px;
+    height: 200px;
+    top: -13px;
+    left: 0;
+    position: absolute;
+    border: 1px dashed red;
+    border-bottom: none;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+/* .curve {
+    width: 300px;
+    height: 200px;
+    border: 1px dashed red;
+    border-radius: 50%;
+} */

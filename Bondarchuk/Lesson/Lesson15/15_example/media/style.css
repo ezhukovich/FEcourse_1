@@ -1,0 +1,23 @@
+.block {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+}
+
+@media screen and (orientation: landscape) {
+    .block {
+        background-color: yellow;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .block {
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .block {
+        background-color: green;
+    }
+}
