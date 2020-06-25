@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+  margin: 20px;
+  padding: 10px;
+  width: 250px;
+  height: 300px;
+  border: 4px solid green;
+}
+
+#deposit, #percent, #month {
+    margin: 5px;
+}
+
+h5 {
+    margin-top: 20px;
+    color: blue;
+    font-size: 22px;
+}
+
+button {
+    margin-top: 15px;
+    width: 95px;
+    height: 35px;
+    background-color: rgb(63, 114, 13);
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    border:2px solid green;
+    cursor: pointer;
+}
