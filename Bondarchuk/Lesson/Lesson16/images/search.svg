@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 75" width="75" height="75">
+	<defs>
+		<image width="75" height="75" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABLCAMAAAAPkIrYAAAAAXNSR0IB2cksfwAAADZQTFRF4d3f4d3fAAAA49/h7evs8/Hy9/b27+3u/f39////9fT05eLj5+Tl6+jq+fj5+/r78e/w6ebogaunDwAAABJ0Uk5T/v8A////////////////////LZ7fqQAAAPZJREFUeJzt1W0LhCAMAOA6zbkstf//Z8/Z9cLBTdLgCLZPjeBhs+W6rr8rXp1YYoklllhiifVPS+nBGDNo1W6BxTUsNFpqxCOGYmmslSlrwOTqxhYLSNL5UZNWapOxHFHTJ5kSZgtdMhaVNe+ZLhfGWAbRn9KAaKqtVEg8pTE12WKdm6KWb7Tq6/o6L99yXumAcNmzpek70nyFbaQUDaurtnJhYa1sCW1z3ytPv6EHgPyAvn7uN+yIAsbfXyruTvRFrHSvuphGAw24tUgWu3DfF7EruyNj8+/3l/YQYcyMXdtpSnPj+tRdK5ZYYokllljPsV73xRt7WB35s1ukmAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Navigation">
+		<use id="" href="#img1" x="0" y="0" />
+	</g>
+</svg>
