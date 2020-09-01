@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #map {
+        width: 80%;
+        height: 500px;
+        /* background-color: grey; */
+      }
+    </style>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+        // Initialize and add the map
+        function initMap() {
+          // The location of Uluru
+          var uluru = {lat: 50.278, lng: 28.735};
+          // The map, centered at Uluru
+          var map = new google.maps.Map(
+              document.getElementById('map'), {zoom: 15, center: uluru});
+          // The marker, positioned at Uluru
+          var marker = new google.maps.Marker({position: uluru, map: map});
+        }
+            </script>
+            <script async defer                              
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAK0LJ5dnNb9Va02rWcaoNvnD3aalHd7Vo&callback=initMap">
+            </script>
+
+  </body>
+</html>
+
+    <!-- <script src="script.js"></script>
+      <script src="test.js"></script> --> 
+<!-- </body> -->
+
+<!-- </html>  -->
